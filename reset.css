@@ -1,0 +1,77 @@
+body,div,p,img,form,input,textarea,td,th,dl,dt,dd,h1,h2,h3,h4,h5,h6,span,ul,ol,li{
+	margin:0px;
+	padding:0px;
+}
+a:hover{
+	color:#2eb398;
+}
+body,html{
+	background:#ffffff none repeat scroll 0 0;
+	font-family:"Source Sans Pro","Open Sans","Helvetica Neue","WenQuanYi Micro Hei","STXihei","华文细黑","Microsoft YaHei","微软雅黑",STHeiti,SimSum,sans-serif;
+	font-size:12px;
+	color:#000000;
+}
+*{
+	list-style:none;
+	-moz-box-sizing:content-box;
+	-webkit-box-sizing:content-box;
+    box-sizing:content-box;
+}
+*::before, *::after{
+	-moz-box-sizing:content-box;
+	-webkit-box-sizing:content-box;
+    box-sizing:content-box;
+}
+img{
+	border:none;
+	
+}
+a{
+	text-decoration:none;
+	color:#333;
+	transition:all 0.2s ease 0s;
+}
+p{
+	word-break:normal;
+	word-wrap:break-word;
+}
+.clearfix:after{
+	display:block;
+	content:"";
+	clear:both;
+	height:0;
+	visibility:hidden;
+}
+.clearfix{
+	/*触发 hasLayout */
+	zoom:1;
+	
+}
+.cf:after, .cf:before{
+	content:"";
+	display:table;
+}
+.cf:after{
+	clear:both;
+}
+.container{
+	margin-left:auto;
+	margin-right:auto;
+	padding-left:15px;
+	padding-right:15px;
+}
+@media(min-width:768px){
+	.container{
+		width:1000px;
+	}
+}
+@media(min-width:992px){
+	.container{
+		width:1000px;
+	}
+}
+@media(min-width:1200px){
+	.container{
+		width:1000px;
+	}
+}
