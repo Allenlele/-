@@ -1,0 +1,88 @@
+
+/* tabbtn */
+.section-left ul.tabbtn{
+	height:28px;
+	width:100%;
+	background:rgba(0,0,0,0) url("../images/tabbg.gif") repeat 0 0;
+	border:1px solid #ddd;
+	margin-bottom:10px;
+}
+
+.section-left .tabbtn li a{
+	float:left;
+	padding:0 9px 2px;
+	height:28px;
+	line-height:28px;
+	overflow:hidden;
+	text-align:center;
+	font-size:15px;
+	font-weight:600;
+	cursor:pointer;
+}
+.section-left .tabbtn li.current a{
+	border-top:solid 2px #ff6600;
+	border-left:solid 1px #d5d5d5;
+	border-right:1px solid #d5d5d5;
+	height:28px;
+	line-height:28px;
+	background:#fff;
+	color:#3366cc;
+	font-weight:800;
+	
+}
+/* tabcon */
+
+/* tabcon */
+.section-left #topcon{height:1610px;position:relative;/*必要元素*/overflow:hidden;}
+.section-left #topcon .subbox{position:absolute;/*必要元素*/left:0;top:0;}
+
+
+/* sublist */
+.section-left #topcon .sublist li{
+	height:120px;
+	width:100%;
+	
+	border-bottom:1px solid #e6eaed;
+	color:#818b97;
+	padding:20px 0;
+}
+.section-left #topcon .sublist li img{
+ 	float:left;
+	max-width:160px;
+	max-height:120px;
+	line-height:120px;
+	margin-right:25px;
+	display:block;
+}
+.section-left #topcon .sublist .detail{
+	overflow:hidden;
+}
+.section-left #topcon .sublist li h2{
+	font-weight:600;
+	
+}
+.section-left #topcon .sublist li p{
+	font-size:14px;
+	margin-bottom:25px;
+	line-height:20px;
+}
+.section-left #topcon .sublist .info{
+	vertical-align:bottom;
+	line-height:60px;
+}
+.section-left #topcon .sublist span.time{
+	font-size:12px;
+	display:inline-block;
+	color:#818b97;
+	margin-right:10px;
+}
+.section-left #topcon .sublist a.comment{
+	background:rgba(0,0,0,0) url("../images/icon_comment.png") no-repeat scroll 0 center;
+	display:inline-block;
+	float:right;
+	padding-left:20px;
+	background-size:20px 30px;
+	
+}
+
+
