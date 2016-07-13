@@ -1,0 +1,108 @@
+/*表格 */
+.section-right .header{
+	height:28px;
+	font-size:16px;
+	text-align:right;
+	border-bottom:1px solid #2eb398;
+}
+.section-right .header span{
+	background:#2eb398 none repeat scroll 0 0;
+	float:left;
+	height:28px;
+	line-height:28px;
+	color:#fff;
+	padding:0 15px;
+}
+.section-right .header a{
+	color:#2eb398;
+	height:28px;
+	line-height:28px;
+}
+/* tabbtn */
+.section-right ul.tabbtn {
+	height:28px;
+	width:100%;
+	border-bottom:solid 1px #ddd;
+	margin-bottom:10px;
+}
+.section-right .tabbtn li {
+	float:left;
+	position:relative;
+	font-size:15px;
+	font-weight:550;
+	margin:0 0 0 -1px;
+	vertical-align:bottom;
+	cursor:pointer;
+	
+}
+.section-right .tabbtn li a{
+	display:block;
+	float:left;
+	height:28px;
+	width:50px;
+	line-height:28px;
+	overflow:hidden;
+	text-align:center;
+}
+.section-right .tabbtn li.current a {
+	border-bottom:solid 2px #2eb398;
+	color:#2eb398;
+	background:#fff;
+	
+	
+}
+/* tabcon */
+
+/* tabcon */
+#normalcon{height:410px;position:relative;/*必要元素*/overflow:hidden;}
+#normalcon .subbox{position:absolute;/*必要元素*/left:0;top:0;}
+
+
+#normalcon .sublist{
+    
+	height:398px;
+	width:260px;
+	
+	
+	border:1px solid #ddd;
+	
+	
+}
+#normalcon span{
+	background:#fff none repeat scroll 0 0;
+	display:inline-block;
+	border:0 none;
+	height:36px;
+	line-height:36px;
+	text-align:center;
+	
+	
+}
+#normalcon .tabth span{
+	font-size:15px;
+	font-weight:600;
+}
+
+#normalcon span.rank{
+	width:35px;
+}
+#normalcon span.team_name{
+	display:inline-block;
+	width:96px;
+	
+	text-align:left;
+	line-height:36px;
+}
+#normalcon span.result{
+	width:72px;
+}
+#normalcon span.grade{
+	width:40px;
+}
+#normalcon .team_name img{
+	height:20px;
+	vertical-align:middle;
+}
+#normalcon ul li:nth-child(2n) span{
+	background:#f1f1f1 none repeat scroll 0 0;
+}
